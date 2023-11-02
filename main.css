@@ -17,7 +17,7 @@ header{
 
 figure{
     margin: 0;
-    width: 50%;
+    width: 500px;
 }
 
 
@@ -26,6 +26,14 @@ header figure img{
 
 }
 /*fin estilos de header */
+
+
+/*estilos del body*/
+body{
+    background-color: bisque;
+}
+
+/*fin de estilos del body*/
 
 
 /*estilos de main*/
@@ -41,8 +49,13 @@ section figure img{
 /*fin estilos about me*/
 
 /*estilos del footer */
+footer{
+    background-color: rgb(216, 150, 64);
+}
+
 footer figure img{
-    height: 32px;
+
+    height: 64px;
 }
 /*fin estilos de footer */
 
