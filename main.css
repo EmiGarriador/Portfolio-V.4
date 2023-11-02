@@ -1,0 +1,49 @@
+
+/*reseteo de estilos */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* fin reseteo de estilos */
+
+
+/*estilos de header */
+header{
+    display: flex;
+}
+
+
+figure{
+    margin: 0;
+    width: 50%;
+}
+
+
+header figure img{
+    height: 32px;
+
+}
+/*fin estilos de header */
+
+
+/*estilos de main*/
+main figure img{
+    width: 165px;
+}
+/*fin estilos de main */
+
+/*estilos de seccion about me */
+section figure img{
+    width: 300px;
+}
+/*fin estilos about me*/
+
+/*estilos del footer */
+footer figure img{
+    height: 32px;
+}
+/*fin estilos de footer */
+
+
