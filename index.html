@@ -1,6 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Montserrat:ital,wght@1,500&family=Outfit:wght@400;700&family=PT+Serif+Caption&family=Roboto:wght@300;400;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="main.css">
@@ -15,7 +18,11 @@
         <img src="/IMG/Logo EG.jfif" alt="este es mi logo personal">
     </figure>
     <nav>
-       icono 
+       <div id="menu-icon">
+           <div class="burger"></div>
+           <div class="burger"></div>
+           <div class="burger"></div>
+       </div> 
     </nav>
 </header>
 <body>
@@ -32,16 +39,14 @@
     </main>
 
     <!-- seccion about me -->
-    <section>
+    <section id="about-me">
         <figure>
-            <lottie-player src="/IMG/workspace.json" background="transparent"  speed="2"  style="width: 300px; height: 300px;" loop controls autoplay></lottie-player>
+            <lottie-player src="/IMG/workspace.json" background="transparent"  speed="2"  style="width: 100%; max-width: 350px; height: 300px;" loop autoplay></lottie-player>
             <article>
-                <h2>
-                    titulo del texto descriptivo
-                </h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis fugit veritatis delectus sit, impedit voluptatibus, consequuntur, iusto adipisci error nobis aspernatur maiores facere quaerat est sapiente ipsa sint enim doloribus!
-                </p>
+                <h2>Learn. Practice. Share.</h2>
+                <h3>life is a constant learning experience</h3>
+                <p>Hi, I am a self-taught artist and creator since I was a child
+                    and now I want to be the same or better in the area of Web development and Graphic Design.</p>
             </article>
         </figure>
     </section>
@@ -50,7 +55,7 @@
     <!-- seccion de las cards -->
     <section>
         <h2>These are some of my proyects.</h2>
-        <article>
+        <article class="card">
             <article>
                 <figure>
                     <img src="/IMG/fondo de card.jfif" alt="">
@@ -63,7 +68,7 @@
                 </article>
             </article>
         </article>
-        <article>
+        <article class="card">
             <article>
                 <figure>
                     <img src="/IMG/fondo de card.jfif" alt="">
@@ -76,7 +81,7 @@
                 </article>
             </article>
         </article>
-        <article>
+        <article class="card">
             <article>
                 <figure>
                     <img src="/IMG/fondo de card.jfif" alt="">
@@ -89,7 +94,7 @@
                 </article>
             </article>
         </article>
-        <article>
+        <article class="card">
             <article>
                 <figure>
                     <img src="/IMG/fondo de card.jfif" alt="">
@@ -109,7 +114,10 @@
 <!-- seccion de technologies -->
     <section>
         <article>
-            <p>These are some of the tecnologies i can handle</p>  
+            <p>These are some of the tecnologies i can handle</p>
+            <p>Every day there are new technologies to learn, 
+                and I look forward to adding many more to the list.
+              </p>  
         </article>
         <article>
             imagenes de tecnologias

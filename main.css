@@ -1,4 +1,5 @@
 
+
 /*reseteo de estilos */
 
 *{
@@ -11,7 +12,11 @@
 
 /*estilos de header */
 header{
+    align-items: center;
+    background-color: rgb(216, 150, 64);
     display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem;
 }
 
 
@@ -22,8 +27,15 @@ figure{
 
 
 header figure img{
-    height: 32px;
+    height: 50px;
 
+}
+
+.burger{
+    background-color: #000000;
+    height: 5px;
+    margin: 3px 0;
+    width: 30px;
 }
 /*fin estilos de header */
 
@@ -37,16 +49,89 @@ body{
 
 
 /*estilos de main*/
+main{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: monospace, sans-serif;
+    height: 67vh;
+    padding: 2rem 2rem;
+    width: 100%;
+}
+
+main figure{
+    width: 200px;
+}
+
 main figure img{
-    width: 165px;
+    border-radius: 50%;
+    border: 5px solid #333;
+    width: 100%;
+}
+
+main article{
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    padding-left: 1rem;
+    width: 100%;
+}
+
+main article p:first-of-type{
+    font-size: 1.5rem;
+}
+
+main article h1{
+    font-size: 3rem;
+}
+
+main article p{
+    font-size: 2rem;
 }
 /*fin estilos de main */
 
 /*estilos de seccion about me */
-section figure img{
-    width: 300px;
+
+#about-me{
+    display: flex;
+    font-family: monospace, sans-serif;
+    flex-direction: column;
+    height: 80vh;
+    width: 100%;
 }
+
+#about-me figure, article{
+    margin: 0 auto;
+    width: 90%;
+}
+
+#about-me h2{
+    color: rgb(189, 111, 83);
+    font-size: 1.8rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
+#about-me h3{
+    color: rgb(247, 66, 0);
+}
+
+
+
 /*fin estilos about me*/
+
+/*estilos de las cards*/
+.card{
+    width: 200px;
+    height: 350px;
+}
+
+.card img{
+    width: 50%;
+}
+/*fin estilos de las cards*/
 
 /*estilos del footer */
 footer{
