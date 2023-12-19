@@ -20,6 +20,32 @@ header{
     padding: 1rem 1rem;
 }
 
+header figure{
+    display: flex;
+    justify-self: flex-start;
+    align-self:first baseline;
+
+}
+
+.Home{
+    letter-spacing: 2px;
+    margin-right: 5px;
+}
+
+.aboutMe{
+    margin-right: 5px;
+}
+
+.menuHeader{
+    display: flex;
+    font-size: larger;
+    font-family: 'Courier New', Courier, sans-serif;
+    font-weight: 700;
+    color: #000;
+    cursor: pointer;  
+}
+
+
 
 figure{
     margin: 0;
@@ -33,14 +59,7 @@ header figure img{
     height: 80px;
 }
 
-.menuHeader{
-    display: flex;
-    font-size: larger;
-    font-family: 'Courier New', Courier, sans-serif;
-    font-weight: 700;
-    padding: 2rem 2rem;
 
-}
 /*fin estilos de header */
 
 
@@ -129,6 +148,16 @@ main article p{
 
 #about-me p{
     padding-top: 0.5rem;
+}
+
+.me{
+    max-width: 300px;
+    height: 300px;
+}
+
+.down-arrow{
+    height: 14rem;
+    width: 14rem;
 }
 
 
@@ -229,6 +258,120 @@ footer figure img{
 }
 
 /*fin estilos de footer */
+
+
+/*Responsive design*/
+
+@media (min-width: 1024px) {
+    header{
+        display:block
+        flex-direction: column;
+        font-size:xx-large;
+        padding: 1rem 1rem;
+    }
+    header figure{
+        padding-left: 3rem;
+
+    }
+    .Home{
+        color: #000000;
+    }
+    .aboutMe{
+        color: #000000;
+        margin-right: 10px;
+        margin-left: 10px;  
+    }
+    .Contact{
+        color: #000000;
+        margin-right: 10px; 
+    }
+
+    .menuHeader{
+        padding-right: 30px;
+    }
+
+    header figure img{
+        height: 120px;
+        border-style: dashed;
+    }
+
+
+    main figure img{
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        box-shadow: 10px 10px 47px -2px rgba(0,0,0,0.72);
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 400px; 
+    }  
+    
+    main article{
+        display: grid;
+    }
+
+    main article h1{
+        margin-top: 1rem;
+        font-size: 6rem
+    }
+    main article p{
+        font-size: 4rem;
+    }
+
+    .me{
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        max-width: 800px;
+        height: 500px;
+    }
+
+    #about-me{
+        font-size: 3rem;
+    }
+
+    #about-me h2{
+        font-size: 4rem;
+    }
+
+    .down-arrow{
+        height: 500px;
+        width: 500px;
+        margin-top: 4rem;
+    }
+
+    section p{
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .skills{
+        height: 30rem;
+    }
+
+    .skills-text2{
+        font-size: 3rem;
+    }
+
+    .skills-text2{
+        font-size: 5rem;
+    }
+
+    }
+
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+    
+}
 
 
 
